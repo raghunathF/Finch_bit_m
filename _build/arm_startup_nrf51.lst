@@ -383,22 +383,22 @@ util -I..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I..\.
 \..\..\..\..\external\segger_rtt -I..\config -I.\RTE\_nrf51422_xxac -IC:\Keil_v
 5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\NordicSemiconduc
 tor\nRF_DeviceFamilyPack\8.11.1\Device\Include -IC:\Keil_v5\ARM\PACK\NordicSemi
-conductor\nRF_DeviceFamilyPack\8.14.1\Device\Include --predefine="__EVAL SETA 1
-" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 523" --pr
-edefine="_RTE_ SETA 1" --predefine="NRF51 SETA 1" --predefine="BLE_STACK_SUPPOR
-T_REQD SETA 1" --predefine="NRF51422 SETA 1" --predefine="BOARD_PCA10028 SETA 1
-" --predefine="NRF_SD_BLE_API_VERSION SETA 2" --predefine="S130 SETA 1" --prede
+conductor\nRF_DeviceFamilyPack\8.14.1\Device\Include -IC:\Keil_v5\ARM\CMSIS\Inc
+lude --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="_
+_UVISION_VERSION SETA 523" --predefine="_RTE_ SETA 1" --predefine="NRF51 SETA 1
+" --predefine="BLE_STACK_SUPPORT_REQD SETA 1" --predefine="NRF51422 SETA 1" --p
+redefine="BOARD_PCA10028 SETA 1" --predefine="NRF_SD_BLE_API_VERSION SETA 2" --
 
 
 
 ARM Macro Assembler    Page 7 
 
 
-fine="NRF51 SETA 1" --predefine="SOFTDEVICE_PRESENT SETA 1" --predefine="SWI_DI
-SABLE0 SETA 1" --cpreproc_opts=-DBLE_STACK_SUPPORT_REQD,-DNRF51422,-DBOARD_PCA1
-0028,-DNRF_SD_BLE_API_VERSION=2,-DS130,-DNRF51,-DSOFTDEVICE_PRESENT,-DSWI_DISAB
-LE0 --list=.\_build\arm_startup_nrf51.lst RTE\Device\nRF51422_xxAC\arm_startup_
-nrf51.s
+predefine="S130 SETA 1" --predefine="NRF51 SETA 1" --predefine="SOFTDEVICE_PRES
+ENT SETA 1" --predefine="SWI_DISABLE0 SETA 1" --cpreproc_opts=-DBLE_STACK_SUPPO
+RT_REQD,-DNRF51422,-DBOARD_PCA10028,-DNRF_SD_BLE_API_VERSION=2,-DS130,-DNRF51,-
+DSOFTDEVICE_PRESENT,-DSWI_DISABLE0 --list=.\_build\arm_startup_nrf51.lst RTE\De
+vice\nRF51422_xxAC\arm_startup_nrf51.s
 
 
 
